@@ -1,0 +1,12 @@
+@"
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+"@ | Out-File -Encoding utf8 .gitignore
